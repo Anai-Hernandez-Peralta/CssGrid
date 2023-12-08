@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+:root {
+    --vino: #643843;
+    --light: #C88EA7;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 20px;
+    place-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.uno {
+    background-color: var(--light);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.dos {
+    background-color: var(--light);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.tres {
+    background-color: var(--light);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.cuatro {
+    background-color: var(--light);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.-uno {
+    background-color: var(--vino);
+    width: 20px;
+    height: 30px;
+}
+
+.-dos {
+    background-color: var(--vino);
+    width: 20px;
+    height: 30px;
+}
+
+.-tres {
+    background-color: var(--vino);
+    width: 20px;
+    height: 30px;
+}
+
+.-cuatro {
+    background-color: var(--vino);
+    width: 20px;
+    height: 30px;
+}

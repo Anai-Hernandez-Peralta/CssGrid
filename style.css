@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px ;
+    grid-auto-flow: column;
+}
+
+:root {
+    --purple1: #3F1D38;
+    --purple1-1: #67729D;
+    --purple2: #35155D;
+    --purple2-1: #D0A2F7;
+    --purple3: #512B81;
+    --purple3-1: #BEADFA;
+    --purple4: #5B0888;
+    --purple4-1: #E5D4FF;
+    --purple5: #A2678A;
+    --purple5-1: #EDE4FF;
+    --purple6: #9D76C1;
+    --purple6-1: #FAF3F0;
+}
+
+.uno {
+    display: flex;
+    place-content: end;
+    background-color: var(--purple6-1);
+}
+
+.dos {
+    display: flex;
+    place-content: end;
+    background-color: var(--purple4-1);
+}
+
+.tres {
+    display: flex;
+    place-content: end;
+    background-color: var(--purple2-1);
+}
+
+.cuatro {
+    display: flex;
+    place-content: end;
+    background-color: var(--purple5-1);
+}
+
+.cinco {
+    display: flex;
+    place-content: end;
+    background-color: var(--purple3-1);
+}
+
+.seis {
+    display: flex;
+    place-content: end;
+    background-color: var(--purple1-1);
+}
+
+.uno h2 {
+    color: white;
+    width: 20px;
+    height: 25px;
+    place-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--purple6);
+}
+
+.dos h2 {
+    color: white;
+    width: 20px;
+    height: 25px;
+    background-color: var(--purple4);
+    place-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tres h2 {
+    color: white;
+    width: 20px;
+    height: 25px;
+    background-color: var(--purple2);
+    place-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuatro h2 {
+    color: white;
+    width: 20px;
+    height: 25px;
+    background-color: var(--purple5);
+    place-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cinco h2 {
+    color: white;
+    width: 20px;
+    height: 25px;
+    background-color: var(--purple3);
+    place-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seis h2 {
+    color: white;
+    width: 20px;
+    height: 25px;
+    background-color: var(--purple1);
+    place-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
